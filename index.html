@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرئيسية</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body dir="rtl">
+    <main>
+        <nav>
+            <div class="navTop">
+                <img src="images/logo.png" alt="" id="logo">
+                <div class="search-div hide">
+                    <div id="search-box">
+                        <input type="text" placeholder="ادخل كلمة البحث" class="search-input">
+                        <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
+                    </div> 
+                </div>
+
+                <div class="icons">
+                    <div class="search-icon hidden">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bag">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="burger-menu hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="navBottom hide">
+                <h3 class="menuItem"><a href="#bouqet">باقات الورد</a></h3>
+                <h3 class="menuItem"><a href="#vase">مزهريات</a></h3>
+                <h3 class="menuItem"><a href="#flower-box">صناديق ورد</a></h3>
+            </div>
+        </nav> 
+        <div class="hero-text">
+            <h2>زهور منتقاة بعناية تصلك أينما كنت </h2>
+        </div>
+
+        <div class="overlay hidden"></div>
+    </main>
+
+    <div class="products">
+        <div class="section" id="bouqet">
+            <h1 class="section-title">باقات الورد</h1>                 
+            <div class="slider" >
+                <div class="sliderWrapper" ></div>
+                <button class="prev-btn ">‹</button>
+                <button class="next-btn">›</button>   
+            </div>
+        </div>
+        <div class="section" id="vase">
+            <h1 class="section-title">مزهريات</h1>                 
+            <div class="slider">
+                <div class="sliderWrapper" ></div>         
+                <button class="prev-btn ">‹</button>
+                <button class="next-btn">›</button>            
+            </div>
+        </div>
+        <div class="section" id="flower-box">
+            <h1 class="section-title">صناديق ورد</h1>                 
+            <div class="slider">
+                <div class="sliderWrapper" ></div> 
+                <button class="prev-btn hidden">‹</button>
+                <button class="next-btn">›</button>                 
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-section">
+                <h3 class="FSheading">روابط مهمة</h3>
+                <div class="important-links">
+                    <a class="fRow" href="#">عن المتجر</a>
+                    <a class="fRow" href="#">سياسة الخصوصية</a>
+                    <a class="fRow" href="#">سياسة الاستبدال والاسترجاع</a>
+                </div>          
+            </div>
+            <div class="footer-section">
+                <h3 class="FSheading">تواصل معنا </h3>
+                <div class="contact-info">
+                    <p class="fRow"><i class=" contact-icon fa-regular fa-envelope"></i> jori@yahoo.com</p>
+                    <p class="fRow"> <ion-icon name="phone-portrait-outline" class="contact-icon"></ion-icon> 01097767089</p>
+                    <p class="fRow"> <i class="contact-icon fa-brands fa-whatsapp"></i> 01097767089</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="social-media-links">
+            <a  href="javascript:;"><i class="fa-brands fa-facebook"></i></a>
+            <a  href="javascript:;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="javascript:;"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="app.js"></script>
+</html>
