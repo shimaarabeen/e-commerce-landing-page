@@ -208,6 +208,7 @@ const searchButton = document.querySelector("#search-button");
 const searchDiv = document.querySelector('.search-div');
 
 
+
 searchProducts = () => {
     const searchValue = searchInput.value;
     const filteredProducts = products.filter((product) => {
